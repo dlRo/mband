@@ -1,4 +1,4 @@
-# mband
+# Access Exchange Online Mailbox Inbox via Microsoft Graph / REST API using PowerShell
 There aren't many simple examples of accessing your Inbox via Microsoft Graph / REST API using PowerShell. Graph Explorer is a great tool for testing out queries but it doesn't give the whole end to end process especially how to acquire the tokens - hopefully this example will be easy for you to do some testing with and can leverage into more complex solutions. Also a good example of cycling through all the results when they come back paged, which again was not easy to find examples for.
 
 First there is some setup required in your Azure tenant - you need to create an App Registration. Here are the steps:
