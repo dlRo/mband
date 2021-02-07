@@ -21,7 +21,7 @@ if ($Credentials) {
 
 $Scope = "https://outlook.office365.com/EWS.AccessAsUser.All"
 # This value comes from App Registration / Endpoints / OAuth 2.0 token endpoint (v2)
-$TokenEndpoint = "https://login.microsoftonline.com/4f50b5ad-6de4-412f-86f6-bcb64cb1b29a/oauth2/v2.0/token" 
+$TokenEndpoint = "https://login.microsoftonline.com/4f50b5ad-6de4-412f-86f6-bcb64cb12345/oauth2/v2.0/token" 
 
 # Create body
 $Body = @{
