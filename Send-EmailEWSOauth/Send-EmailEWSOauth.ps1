@@ -8,8 +8,8 @@ param (
     [System.Management.Automation.PSCredential]$Credentials)
 
 Import-Module -Name "C:\Program Files\Microsoft\Exchange\Web Services\2.2\Microsoft.Exchange.WebServices.dll"
-$AppId = '571ae6ec-cc83-4fc3-aaae-bd04558e79df'
-$AppSecret = 'P.pTwpG5_i3n2vpqOoL7KrdT9J7jc.-.j4'
+$AppId = '<app id here>'
+$AppSecret = '<app secret here>'
 if ($Credentials) {
     $username = $Credentials.UserName
     $Password = $Credentials.GetNetworkCredential().Password
