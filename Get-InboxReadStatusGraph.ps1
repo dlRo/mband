@@ -1,8 +1,8 @@
 ﻿# Delegated example, good for the /me stuff
-$AppId = '87f0c70f-7d8a-4e54-9c17-c04a58123456'
-$AppSecret = '0610dN_s.vazVeGDZYoRe=.0cd123456'
+$AppId = '<appid>'
+$AppSecret = '<appsecret>'
 $Scope = "https://graph.microsoft.com/.default"
-$Username = read-host -prompt "Enter upn" # "meganb@M365xXXXXXX.onmicrosoft.com" for example
+$Username = read-host -prompt "Enter upn" # "meganb@....onmicrosoft.com" for example
 $Password = read-host -prompt "Enter password" -AsSecureString
 $password = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($password))
 # This value comes from App Registration / Endpoints / OAuth 2.0 token endpoint (v2)
