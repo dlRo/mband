@@ -8,9 +8,14 @@ param (
     [System.Management.Automation.PSCredential]$Credentials)
 
 Import-Module -Name "C:\Program Files\Microsoft\Exchange\Web Services\2.2\Microsoft.Exchange.WebServices.dll"
+<<<<<<< HEAD
 #$AppId = '571ae6ec-cc83-4fc3-aaae-bd04558e79df'
 $AppId = "1477e423-9714-4154-aac4-543f72e32d6a"
 $AppSecret = 'H6I7Q~8QESf5AI51UnqrWZqPV0h9vHaCPRwUf'
+=======
+$AppId = '<app id here>'
+$AppSecret = '<app secret here>'
+>>>>>>> 446fe47a64909e6aa921377282cab86a72151148
 if ($Credentials) {
     $username = $Credentials.UserName
     $Password = $Credentials.GetNetworkCredential().Password
@@ -22,7 +27,11 @@ if ($Credentials) {
 
 $Scope = "https://outlook.office365.com/EWS.AccessAsUser.All"
 # This value comes from App Registration / Endpoints / OAuth 2.0 token endpoint (v2)
+<<<<<<< HEAD
 $TokenEndpoint = "https://login.microsoftonline.com/4f50b5ad-6de4-412f-86f6-bcb64cb1b29a/oauth2/v2.0/token" 
+=======
+$TokenEndpoint = "https://login.microsoftonline.com/<endpoint>/oauth2/v2.0/token" 
+>>>>>>> 446fe47a64909e6aa921377282cab86a72151148
 
 # Create body
 $Body = @{

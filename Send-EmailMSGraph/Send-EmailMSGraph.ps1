@@ -30,7 +30,7 @@ $emailBody =
 }
 
 $AppId = '571ae6ec-cc83-4fc3-aaae-bd04558e79df'
-$AppSecret = 'P.pTwpG5_i3n2vpqOoL7KrdT9J7jc.-.j4'
+$AppSecret = <app secret>
 if ($Credentials) {
     $username = $Credentials.UserName
     $Password = $Credentials.GetNetworkCredential().Password
