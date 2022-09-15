@@ -5,4 +5,5 @@ Although it's clear the long term direction is Microsoft Graph, there are still 
 Add a client secret and copy it into line 9 of the scripts. 
 Copy the Application (client) id into line 8. 
 Click on Endpoint, copy the OAuth 2.0 token endpoint (v2) value into line 21.
-2. Do follow the steps in the Configure for delegated authentication to edit the manifest. 
+2. Do follow the steps in the [Configure for delegated authentication to edit the manifest](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#configure-for-delegated-authentication "Configure for delegated authentication to edit the manifest") section. 
+
